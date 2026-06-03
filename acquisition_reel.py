@@ -40,16 +40,16 @@ def arreter():
     running = False
 
 def sauvegarder_csv():
-    with open("mesures_wifi_reel.csv", "w", newline="") as f:
+    with open("data/mesures_wifi_reel.csv", "w", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["temps_s", "rssi_dbm"])
         for t, p in zip(temps, rssi):
             writer.writerow([t, p])
-    label_info.config(text="CSV sauvegardé : mesures_wifi_reel.csv")
+    label_info.config(text="CSV sauvegardé : data/mesures_wifi_reel.csv")
 
 def sauvegarder_png():
-    fig.savefig("graphe_wifi_reel.png", dpi=300)
-    label_info.config(text="PNG sauvegardé : graphe_wifi_reel.png")
+   fig.savefig("images/graphe_wifi_reel.png", dpi=300)
+   label_info.config(text="PNG sauvegardé : images/graphe_wifi_reel.png")
 
 def generer_rapport():
     if len(rssi) == 0:
@@ -59,7 +59,7 @@ def generer_rapport():
     duree = temps[-1] if temps else 0
     freq = frequence_var.get()
 
-    with open("rapport_wifi.txt", "w") as f:
+    with open("docs/rapport_wifi.txt", "w") as f:
         f.write("RAPPORT D'ACQUISITION WI-FI\n")
         f.write("===========================\n\n")
         f.write(f"Date : {datetime.now()}\n")
@@ -73,7 +73,7 @@ def generer_rapport():
         f.write(f"Nombre d'événements : {nb_evenements}\n")
         f.write(f"Énergie totale : {energie_totale:.3e} J\n")
 
-    label_info.config(text="Rapport généré : rapport_wifi.txt")
+    label_info.config(text="Rapport généré : docs/rapport_wifi.txt")
 
 def acquisition():
     global nb_evenements, energie_totale
