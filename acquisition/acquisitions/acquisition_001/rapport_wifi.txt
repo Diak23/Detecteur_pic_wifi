@@ -1,0 +1,38 @@
+RAPPORT D'ACQUISITION RF / WI-FI
+================================
+
+Date : 2026-06-03 20:42:42.687460
+Fréquence sélectionnée : 2.4 GHz
+Dossier acquisition : acquisitions/acquisition_001
+Durée acquisition : 82.35 s
+Nombre de mesures : 139
+Seuil de détection : -30 dBm
+
+STATISTIQUES RSSI
+-----------------
+RSSI moyen : -26.16 dBm
+RSSI max : -17.00 dBm
+RSSI min : -41.00 dBm
+
+ANALYSE ÉVÉNEMENTS / ÉNERGIE
+----------------------------
+Nombre d'événements : 9
+Puissance moyenne : 4.283e-06 W
+Puissance max : 1.995e-05 W
+Puissance min : 7.943e-08 W
+Énergie totale : 3.509e-04 J
+Durée moyenne des pics : 6.83 s
+Durée max des pics : 32.82 s
+Durée min des pics : 0.59 s
+
+DÉTAIL DES PICS
+----------------
+Pic 1 : début = 0.01 s, fin = 5.81 s, durée = 5.80 s, RSSI moyen = -21.90 dBm, Puissance moyenne = 6.457e-06 W, Énergie = 3.745e-05 J
+Pic 2 : début = 6.35 s, fin = 6.94 s, durée = 0.59 s, RSSI moyen = -29.00 dBm, Puissance moyenne = 1.259e-06 W, Énergie = 7.410e-07 J
+Pic 3 : début = 8.16 s, fin = 15.97 s, durée = 7.81 s, RSSI moyen = -25.15 dBm, Puissance moyenne = 3.052e-06 W, Énergie = 2.385e-05 J
+Pic 4 : début = 19.04 s, fin = 21.48 s, durée = 2.44 s, RSSI moyen = -28.00 dBm, Puissance moyenne = 1.585e-06 W, Énergie = 3.863e-06 J
+Pic 5 : début = 24.31 s, fin = 30.80 s, durée = 6.48 s, RSSI moyen = -27.82 dBm, Puissance moyenne = 1.653e-06 W, Énergie = 1.072e-05 J
+Pic 6 : début = 32.58 s, fin = 33.18 s, durée = 0.60 s, RSSI moyen = -29.00 dBm, Puissance moyenne = 1.259e-06 W, Énergie = 7.568e-07 J
+Pic 7 : début = 33.78 s, fin = 66.60 s, durée = 32.82 s, RSSI moyen = -22.78 dBm, Puissance moyenne = 5.270e-06 W, Énergie = 1.730e-04 J
+Pic 8 : début = 70.21 s, fin = 72.66 s, durée = 2.46 s, RSSI moyen = -27.75 dBm, Puissance moyenne = 1.679e-06 W, Énergie = 4.125e-06 J
+Pic 9 : début = 78.06 s, fin = 80.49 s, durée = 2.44 s, RSSI moyen = -29.00 dBm, Puissance moyenne = 1.259e-06 W, Énergie = 3.068e-06 J
