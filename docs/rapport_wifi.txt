@@ -1,0 +1,14 @@
+RAPPORT D'ACQUISITION WI-FI
+===========================
+
+Date : 2026-06-03 14:19:44.775896
+Fréquence sélectionnée : 2.4 GHz
+Durée acquisition : 53.24 s
+Nombre de mesures : 129
+Seuil de détection : -30 dBm
+
+RSSI moyen : -28.93 dBm
+RSSI max : -25.00 dBm
+RSSI min : -34.00 dBm
+Nombre d'événements : 10
+Énergie totale : 8.207e-05 J
